@@ -1,0 +1,171 @@
+/*!
+Theme Name: product_listing
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+*/
+.banner {
+    height: 96vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.bgclr{
+	background: #E9CEB9;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 12px;
+    position: relative;
+}
+
+.bapf_head h3:after {
+    content: "";
+    background-image: url(http://localhost/wordpress_product/wp-content/uploads/2023/02/stroke.png);
+    left: 0px;
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    bottom: -14px;
+    background-size: 100% 100%;
+}
+.bapf_head h3{
+	position: relative;
+    margin-top: 25px;
+    font-size: 1.25rem;
+}
+.bapf_body ul li input[type="checkbox"]{
+	float:right;
+}
+.bapf_colaps_togl{
+	margin-bottom:35px;
+}
+.bapf_head{
+	margin-bottom:35px;
+}
+.wd_em input {
+    width: 35px;
+    height: 22px;
+}
+.woocommerce-loop-product__title{
+	display:none;
+}
+
+.hjckd .woocommerce-Price-amount{
+	display:none;
+}
+span .woocommerce-Price-amount{
+	display:none;
+}
+/* ----------------------------- */
+.woocommerce img, .woocommerce-page img {
+    height: auto;
+    width: 100%;
+}
+.product.type-product{
+	position:relative;
+}
+.prod__det{
+	position: absolute;
+    background: #ffffff;
+    padding:15px 10px;
+    bottom: -25px;
+    width: 74%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.product.type-product:hover .prod__det{
+	opacity:1;
+	bottom: 9%;
+}
+/* .product.type-product:hover img{
+	transform:scale(1.1);
+} */
+
+
+/*=============
+CSS Style for WooCommerce ajax search without plugin base on category filter
+==============*/
+
+div.search_result {
+    display: none;
+}
+
+div.search_result {
+    display: none;
+}
+
+.search_bar {
+    padding: 350px 0;
+    margin: 0 auto;
+    background: #192132;
+}
+
+form {
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid;
+    margin-right: 5px;
+}
+/*div#datafetch {
+    max-width: 600px;
+    margin: auto;
+}*/
+
+div#datafetch ul {
+    list-style: none;
+    padding: 0;
+    background: #1a2132;
+}
+
+div#datafetch li img {
+    max-width: 50px;
+    height: AUTO;
+}
+
+div#datafetch li {
+    padding: 5px;
+    background: #151a29;
+    margin-bottom: 5px;
+}
+
+div#datafetch ul a span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div#datafetch a {
+    color: #fff;
+}
+
+
+
+.new_img_pt .prod img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 85px;
+}
+
+.prod__name a {
+    color: #232323!important;
+}
+
+.prod .mnf_pt {
+    color: #BF1E2E!important;
+}
+
+
